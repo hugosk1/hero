@@ -4,8 +4,3 @@
 out/
 build/
 *.iml
-*.build.gradle
-*.git
-*.gradlew
-*.gradlew.bat
-*.settings.gradle
