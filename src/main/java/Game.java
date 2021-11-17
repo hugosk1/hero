@@ -58,6 +58,12 @@ public class Game {
             }
             else if (key.getKeyType() == KeyType.EOF) break;
             else processKey(key);
+
+            if(arena.verifyMonsterCollisions()) {
+                System.out.println("You lost! Monster catched you!");
+                screen.close();
+                break;
+            }
         }
     }
 }
